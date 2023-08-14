@@ -34,7 +34,7 @@
             <a href="#" class="brand-link">
                 <!-- Agrega el logo de la empresa aquí (ruta pública) -->
                 <img src="{{asset('img/logo.png')}}" alt="Logo" class="brand-image img-circle elevation-3 bg-white" style="opacity: .8">
-                <span class="brand-text font-weight-bold">SOFTLIFE</span>
+                <span class="brand-text font-weight-bold">TESNEXT</span>
             </a>
 
             <!-- Sidebar -->

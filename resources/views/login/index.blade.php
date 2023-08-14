@@ -81,7 +81,6 @@
     <div class="login-container">
         <div class="login-card">
             <h1>Iniciar Sesión</h1>
-
             @if ($errors->any())
                 <div class="alert alert-danger">
                     <ul>

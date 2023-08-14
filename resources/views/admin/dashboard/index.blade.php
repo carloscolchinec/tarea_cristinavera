@@ -52,42 +52,5 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-md-6">
-            <div class="info-box bg-danger">
-                <span class="info-box-icon"><i class="fas fa-exclamation-triangle"></i></span>
-
-                <div class="info-box-content">
-                    <span class="info-box-text">Clientes con Pagos Pendientes</span>
-                    <span class="info-box-number">{{ $clientesConPagosPendientes }}</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-6">
-            <div class="info-box bg-secondary">
-                <span class="info-box-icon"><i class="fas fa-coins"></i></span>
-
-                <div class="info-box-content">
-                    <span class="info-box-text">Factura con Monto Más Alto</span>
-                    <span class="info-box-number">{{ $facturaMontoMasAlto->total_factura }}</span>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-6">
-            <div class="info-box bg-success">
-                <span class="info-box-icon"><i class="fas fa-coins"></i></span>
-
-                <div class="info-box-content">
-                    <span class="info-box-text">Factura con Monto Más Bajo</span>
-                    <span class="info-box-number">{{ $facturaMontoMasBajo->total_factura }}</span>
-                </div>
-            </div>
-        </div>
-    </div>
-
 </div>
 @endsection

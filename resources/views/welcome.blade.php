@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SoftLife - Sistema de Facturación</title>
+    <title>TESNEXT  - Sistema de Facturación</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
@@ -57,8 +57,8 @@
 <body>
     <div class="landing-page">
         <img src="{{asset('img/logo.png')}}" style="width: 300px;" alt="Logo" class="logo">
-        <h1 class="title">SoftLife - Sistema de Facturación</h1>
-        <p class="description">¡Bienvenido al mejor sistema de facturación para tu negocio! Con SoftLife, podrás
+        <h1 class="title">TESNEXT - Sistema de Facturación</h1>
+        <p class="description">¡Bienvenido al mejor sistema de facturación para tu negocio! Con TESNEXT, podrás
             gestionar de manera eficiente las facturas de tus clientes, registrar pagos, generar reportes y mucho más.
             ¡Simplifica tu administración y ahorra tiempo!</p>
         <a href="{{route('dashboard.index')}}" class="cta-btn">Entrar al Panel</a>
